@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "${PCB_REV}01"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -285,8 +285,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -418,7 +418,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://SCH_TEMPLATE.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -430,7 +430,7 @@
         "uuid": "12df8615-6dea-41a3-813d-a1e009b630b1"
       }
     ],
-    "used_designators": "#PWR1-22,C1,U1",
+    "used_designators": "#PWR1-33,C1,U1",
     "variants": []
   },
   "sheets": [
@@ -439,7 +439,10 @@
       "minikeys1x4"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "AUTHOR": "K. CHAU",
+    "PCB_REV": "A"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
